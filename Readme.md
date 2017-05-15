@@ -43,7 +43,7 @@ The model uses 5 Convolutional layers which increase in depth through the course
 The model includes ELU layers to introduce nonlinearity without creating dead neurons, and the data is normalized using a Keras lambda layer during input. Additionally the model employs a train-test-split  (code line 32) in order to shuffle our data and provide a validation set to measure our models accuracy against. Furthermore the model uses dropout layers in order to reduce overfitting and increase accuracy. The full model architecture implementation can be viewed on code lines 102-119, and a picture of the model architecture can be view below.
 
 The Nvidia Model is as follows 
-![Nvidia Picture](./Pictures/Nvidia_Arch_pic.png)
+![Nvidia Picture](./Pictures/Nvidia_Arch_pic.PNG)
 
 
 The model used an Adam Optimizer, so the learning rate was left at it's default value as semi-suggested by the [Keras Docs](https://keras.io/optimizers/#adam). the Adam optimizer was chosen due to it's performance with non stationary objectives, suitability for large amounts of data, and resistance to hyperparameter tuning (less guess-wait-and-check).
@@ -62,7 +62,7 @@ The training data was collected by recording select driving sessions in the wind
 | Last Right Turn  | 1 laps  |
 | Second Track | 1 lap  |
 
-** Center Image:**![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)
+**Center Image:**![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)
 
 
 Each session has a series of center camera + driving angle pairs associated with it. This dataset was enhanced by adding additional left/right camera pictures, and adding a small adjustment factor to the angle in order to account for the changed perspective (code line 40).
