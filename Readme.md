@@ -63,13 +63,21 @@ The training data was collected by recording select driving sessions in the wind
 | Second Track | 1 lap  |
 
 
-![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)**:Center Image**
+
+![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)
+
+**Center Image**
 
 
 Each session has a series of center camera + driving angle pairs associated with it. This dataset was enhanced by adding additional left/right camera pictures, and adding a small adjustment factor to the angle in order to account for the changed perspective (code line 40).
 
-**Left Image:**![Left Image From Data Set](./Pictures/left_2017_05_07_16_48_00_036.jpg)
-**Right Image:**![Right Image From Data Set](./Pictures/right_2017_05_07_16_48_00_036.jpg)
+![Left Image From Data Set](./Pictures/left_2017_05_07_16_48_00_036.jpg)
+
+**Left Image**
+
+![Right Image From Data Set](./Pictures/right_2017_05_07_16_48_00_036.jpg)
+
+**Right Image**
 
 The dataset was then further enhanced by flipping the data from all 3 cameras by 180 degrees about the Y axis using the cv2 library (code line 78), and inverting the steering angle. This was done in order to prevent bias against left turning angles, as the majority of our track consisted of left turns.
 
