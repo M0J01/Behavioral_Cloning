@@ -62,7 +62,8 @@ The training data was collected by recording select driving sessions in the wind
 | Last Right Turn  | 1 laps  |
 | Second Track | 1 lap  |
 
-**Center Image:**![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)
+
+![Image From Data Set](./Pictures/center_2017_05_07_16_48_00_036.jpg)**:Center Image**
 
 
 Each session has a series of center camera + driving angle pairs associated with it. This dataset was enhanced by adding additional left/right camera pictures, and adding a small adjustment factor to the angle in order to account for the changed perspective (code line 40).
