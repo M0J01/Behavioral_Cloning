@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-#### The Github for this project can be found here : [Github](https://github.com/udacity/CarND-Behavioral-Cloning-P3)
+#### The Github instructions for this project can be found here : [Github](https://github.com/udacity/CarND-Behavioral-Cloning-P3)
 #### The Rubric for this project can be found here : [rubric points](https://review.udacity.com/#!/rubrics/432/view)
 #### The Simlutor for this project can be found here : [Simulator](https://github.com/udacity/self-driving-car-sim)
 #### The Class for this project can be found here : [UdaCity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
