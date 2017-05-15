@@ -42,7 +42,7 @@ The model uses 5 Convolutional layers which increase in depth through the course
 
 The model includes ELU layers to introduce nonlinearity without creating dead neurons, and the data is normalized using a Keras lambda layer during input. Additionally the model employs a train-test-split  (code line 32) in order to shuffle our data and provide a validation set to measure our models accuracy against. Furthermore the model uses dropout layers in order to reduce overfitting and increase accuracy. The full model architecture implementation can be viewed on code lines 102-119, and a picture of the model architecture can be view below.
 
-The Nvidia Model is as follows 
+**Nvidia Model**
 ![Nvidia Picture](./Pictures/Nvidia_Arch_pic.PNG)
 
 
